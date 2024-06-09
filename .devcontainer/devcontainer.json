@@ -2,6 +2,7 @@
   "name": "Solana Development",
   "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu", 
   "postCreateCommand": "bash .devcontainer/setup.sh",
+  "postCreateCommand": "chmod +x .devcontainer/setup.sh && bash .devcontainer/setup.sh",
   "customizations": {
     "vscode": {
       "extensions": [
